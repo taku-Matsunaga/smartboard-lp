@@ -11,6 +11,14 @@ html {
   display: flex;
 }
 
+.mt-30 {
+  margin-top: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .buyBtn {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(-9.29%, #67a8e3), color-stop(160.71%, #86c5ff));
   background: -webkit-linear-gradient(bottom, #67a8e3 -9.29%, #86c5ff 160.71%);
@@ -37,12 +45,28 @@ html {
   font-size: 1.4rem;
 }
 
+.commonHeading2 {
+  border-left: 20px solid #fff;
+  padding-left: 3rem;
+}
+.commonHeading2 .main {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 1rem 0;
+}
+.commonHeading2 .sub {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+}
+
 .header {
   position: fixed;
   width: 100%;
-  -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
-  background-color: rgba(255, 255, 255, 0.075);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, 0.1);
   height: 80px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -158,4 +182,20 @@ html {
   font-size: 1.2rem;
   font-weight: bold;
   line-height: 1.7rem;
+}
+
+.about {
+  background-color: #4c8fcd;
+  padding: 15vh 0;
+}
+.about .a-wrapper {
+  max-width: 700px;
+  margin: auto;
+}
+.about .a-wrapper__textbox {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.8rem;
+  margin: 80px 0;
 }/*# sourceMappingURL=style.css.map */

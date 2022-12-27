@@ -1,0 +1,18 @@
+.about {
+  background-color: #4c8fcd;
+  padding: 15vh 0;
+
+  .a-wrapper {
+    max-width: 700px;
+    margin: auto;
+
+    &__textbox {
+      color: #fff;
+      font-size: 1.6rem;
+      font-weight: 300;
+      line-height: 2.8rem;
+      margin: 80px 0;
+
+    }
+  }
+}

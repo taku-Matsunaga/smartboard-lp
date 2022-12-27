@@ -1,0 +1,70 @@
+
+// キャッチ
+.c-container {
+  height: 90vh;
+  background-image: url("../img/top.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  .c-title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+
+    &__sub {
+      font-size: 3.2rem;
+      font-weight: 900;
+    }
+
+    &__main {
+      background: linear-gradient(0deg, #67a8e3 -9.29%, #86c5ff 160.71%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      font-size: 7.2rem;
+      font-weight: 700;
+      margin-top: 1rem;
+    }
+  }
+
+  .c-circle {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 4rem;
+
+    &__container {
+      display: flex;
+      gap: 4rem;
+
+      &--item {
+        background-color: #fff;
+        width: 90px;
+        height: 90px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+        border: 1px solid #67a8e3;
+        border-radius: 999px;
+        display: grid;
+        place-items: center;
+        text-align: center;
+
+        .text {
+          background: linear-gradient(0deg, #67a8e3 -9.29%, #86c5ff 160.71%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+          font-size: 1.2rem;
+          font-weight: bold;
+          line-height: 1.7rem;
+        }
+      }
+    }
+  }
+}
