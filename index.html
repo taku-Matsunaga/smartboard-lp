@@ -7,24 +7,54 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/sanitize.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="">スマートボードとは</a></li>
-          <li><a href="">機能の特徴</a></li>
-          <li><a href="">機種一覧</a></li>
-        </ul>
-        <a href="">購入する</a>
+    <header class="header">
+      <nav class="h-nav">
+        <div class="flex">
+          <ul class="h-nav__wrapper">
+            <li class="h-nav__wrapper--item">
+              <a href="">スマートボードとは</a>
+            </li>
+            <li class="h-nav__wrapper--item"><a href="">機能の特徴</a></li>
+            <li class="h-nav__wrapper--item"><a href="">機種一覧</a></li>
+          </ul>
+          <a class="buyBtn" href="">購入する</a>
+        </div>
       </nav>
     </header>
     <main>
-      <section>
-        <div>
-          <p>会議に必要な全てをこの一つに</p>
-          <h1>スマートAIボード</h1>
+      <section class="c-container">
+        <div class="c-title">
+          <p class="c-title__sub">会議に必要な全てをこの一つに</p>
+          <h1 class="c-title__main">スマートAIボード</h1>
         </div>
+        <ul class="c-circle">
+          <li class="c-circle__container">
+            <div class="c-circle__container--item">
+              <p class="text">フリップ<br>ボード</p>
+            </div>
+            <div class="c-circle__container--item">
+              <p class="text">ホワイト<br>ボード</p>
+            </div>
+          </li>
+          <li class="c-circle__container">
+            <div class="c-circle__container--item">
+              <p class="text">会議<br>ディスプレイ</p>
+            </div>
+            <div class="c-circle__container--item">
+              <p class="text">オフィス<br>アプリ</p>
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
     <footer></footer>
