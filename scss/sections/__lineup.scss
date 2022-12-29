@@ -1,0 +1,75 @@
+.l-wrapper {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px 80px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  width: 800px;
+  margin: auto;
+  display: flex;
+  gap: 36px;
+  margin: 15vh auto;
+
+  &__item {
+    .name {
+      background: linear-gradient(0deg, #67a8e3 -9.29%, #86c5ff 160.71%);
+      display: block;
+      padding: 8px 0;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.6rem;
+      text-align: center;
+      margin-top: 48px;
+    }
+
+    &--spec {
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+      margin: 48px auto;
+
+      .title {
+        color: #4c8fcd;
+        font-size: 1.6rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 8px;
+      }
+
+      .spec {
+        font-size: 1.6rem;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .big {
+        font-size: 2.4rem;
+        padding-right: 0.2rem;
+      }
+    }
+
+    .btnWrapper {
+      font-size: 1.6rem;
+      font-weight: bold;
+
+      &__btn {
+        background: #ff9900;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 999px;
+        color: #fff;
+        max-width: 200px;
+        width: 80%;
+        height: 51px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+        .small {
+          font-size: 1.2rem;
+          padding-bottom: 0.2rem;
+        }
+      }
+    }
+  }
+}

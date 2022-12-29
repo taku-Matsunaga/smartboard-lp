@@ -440,4 +440,97 @@ img {
 }
 .f-wrapper__item .cardWrapper__item .img .imgWrapper img {
   width: 250px;
+}
+
+.l-wrapper {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px 80px;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  width: 800px;
+  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 36px;
+  margin: 15vh auto;
+}
+.l-wrapper__item .name {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-9.29%, #67a8e3), color-stop(160.71%, #86c5ff));
+  background: -webkit-linear-gradient(bottom, #67a8e3 -9.29%, #86c5ff 160.71%);
+  background: linear-gradient(0deg, #67a8e3 -9.29%, #86c5ff 160.71%);
+  display: block;
+  padding: 8px 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 48px;
+}
+.l-wrapper__item--spec {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 36px;
+  margin: 48px auto;
+}
+.l-wrapper__item--spec .title {
+  color: #4c8fcd;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.l-wrapper__item--spec .spec {
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: bold;
+}
+.l-wrapper__item--spec .big {
+  font-size: 2.4rem;
+  padding-right: 0.2rem;
+}
+.l-wrapper__item .btnWrapper {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.l-wrapper__item .btnWrapper__btn {
+  background: #ff9900;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 999px;
+  color: #fff;
+  max-width: 200px;
+  width: 80%;
+  height: 51px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+.l-wrapper__item .btnWrapper__btn .small {
+  font-size: 1.2rem;
+  padding-bottom: 0.2rem;
 }/*# sourceMappingURL=style.css.map */
