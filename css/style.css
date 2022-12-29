@@ -3,6 +3,7 @@ html {
   font-family: "Roboto", "Noto Sans JP", sans-serif;
   color: #333;
   background-color: #f7f8f9;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -22,6 +23,43 @@ img {
 
 .text-center {
   text-align: center;
+}
+
+.btnWrapper {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.btnWrapper__btn {
+  background: #ff9900;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 999px;
+  color: #fff;
+  max-width: 200px;
+  width: 80%;
+  height: 51px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+.btnWrapper__btn .small {
+  font-size: 1.2rem;
+  padding-bottom: 0.2rem;
 }
 
 .buyBtn {
@@ -133,6 +171,18 @@ img {
           align-items: center;
 }
 .header .h-nav__wrapper--item a {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #333;
+  height: 80px;
+  display: grid;
+  place-items: center;
+}
+.footer small {
+  color: #fff;
   font-size: 1.4rem;
 }
 
@@ -498,39 +548,33 @@ img {
   font-size: 2.4rem;
   padding-right: 0.2rem;
 }
-.l-wrapper__item .btnWrapper {
-  font-size: 1.6rem;
-  font-weight: bold;
+
+.purchase {
+  background-color: #4c8fcd;
+  padding: 15vh 0;
 }
-.l-wrapper__item .btnWrapper__btn {
-  background: #ff9900;
-  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
-  border-radius: 999px;
-  color: #fff;
-  max-width: 200px;
-  width: 80%;
-  height: 51px;
+.purchase .p-wrapper {
+  max-width: 700px;
+  margin: auto;
+}
+.purchase .p-wrapper__container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: auto;
+  gap: 36px;
+  margin: 15vh auto 0;
 }
-.l-wrapper__item .btnWrapper__btn .small {
-  font-size: 1.2rem;
-  padding-bottom: 0.2rem;
+.purchase .p-wrapper__container--item {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  padding: 40px;
+}
+.purchase .p-wrapper__container--item .title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 24px auto;
 }/*# sourceMappingURL=style.css.map */

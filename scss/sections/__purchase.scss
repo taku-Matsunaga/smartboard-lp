@@ -1,0 +1,29 @@
+.purchase {
+  background-color: #4c8fcd;
+  padding: 15vh 0;
+
+  .p-wrapper {
+    max-width: 700px;
+    margin: auto;
+
+    &__container {
+      display: flex;
+      gap: 36px;
+      margin: 15vh auto 0;
+
+      &--item {
+        background: #ffffff;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 30px;
+        padding: 40px;
+
+        .title {
+          font-size: 1.6rem;
+          font-weight: bold;
+          text-align: center;
+          margin: 24px auto;
+        }
+      }
+    }
+  }
+}
