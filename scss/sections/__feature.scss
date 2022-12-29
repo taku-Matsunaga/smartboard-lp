@@ -1,0 +1,205 @@
+@mixin gradient_sub() {
+  background: linear-gradient(
+    270deg,
+    #444444 -6.29%,
+    rgba(255, 255, 255, 0.1) 128.59%
+  );
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  height: 15px;
+  margin: 0 16px;
+}
+
+.feature {
+  margin: 25vh auto;
+}
+
+.f-wrapper {
+  font-size: 1.6rem;
+  width: 1000px;
+  margin: 180px auto;
+
+  &__item {
+    margin: 180px auto;
+
+    &--heading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+
+      .num {
+        background: linear-gradient(0deg, #67a8e3 -9.29%, #86c5ff 160.71%);
+        font-size: 2.4rem;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 10px;
+        display: inline-block;
+        margin-right: 28px;
+      }
+      .text {
+        font-size: 3.2rem;
+        font-weight: bold;
+        background: linear-gradient(
+          180deg,
+          rgba(68, 68, 68, 0.61) 0%,
+          rgba(0, 0, 0, 0.8) 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+    }
+
+    &--text {
+      text-align: center;
+    }
+
+    &--speed {
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 30px 50px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+      margin: 96px auto 48px;
+      width: 750px;
+
+      .heading {
+        color: #4c8fcd;
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-align: center;
+      }
+      .list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .item {
+          display: flex;
+          align-items: center;
+
+          .title {
+            width: 20%;
+            text-align: end;
+          }
+
+          .main_bar {
+            background: linear-gradient(
+              270deg,
+              #67a8e3 -6.29%,
+              rgba(255, 255, 255, 0.1) 128.59%
+            );
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+            width: 45%;
+            height: 15px;
+            margin: 0 16px;
+          }
+
+          .main_result {
+            background: linear-gradient(0deg, #67a8e3 -9.29%, #86c5ff 160.71%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+            font-size: 2rem;
+            font-weight: bold;
+
+            .num {
+              font-size: 3.2rem;
+              font-weight: 900;
+            }
+          }
+
+          .bar_a {
+            width: 50%;
+            @include gradient_sub();
+          }
+
+          .bar_b {
+            width: 55%;
+            @include gradient_sub();
+          }
+
+          .bar_c {
+            width: 60%;
+            @include gradient_sub();
+          }
+
+          .result {
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+
+    &--description {
+      width: 750px;
+      margin: auto;
+
+      .title {
+        color: #4c8fcd;
+        font-size: 2.4rem;
+        font-weight: bold;
+        margin-bottom: 16px;
+      }
+
+      .textBox {
+        font-size: 1.6rem;
+        line-height: 3rem;
+      }
+
+      .small {
+        font-size: 1.2rem;
+      }
+    }
+
+    .cardWrapper {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      margin: 96px auto 48px;
+
+      &__item {
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 30px 50px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+
+        .title {
+          background: linear-gradient(0deg, #67a8e3 -9.29%, #86c5ff 160.71%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+          font-weight: bold;
+          font-size: 3.2rem;
+          text-align: center;
+
+          .strong {
+            font-size: 4rem;
+          }
+        }
+
+        .text {
+          font-size: 1.6rem;
+          margin-top: 16px;
+          line-height: 2.4rem;
+          text-align: center;
+        }
+
+        &.img {
+        }
+
+        .img {
+          text-align: center;
+
+          .imgWrapper {
+            img {
+              width: 250px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
