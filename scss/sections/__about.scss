@@ -12,7 +12,23 @@
       font-weight: 300;
       line-height: 2.8rem;
       margin: 80px 0;
+    }
+  }
+}
 
+@media screen and (max-width: 700px) {
+  .about {
+    .a-wrapper {
+      width: 90%;
+      margin: auto;
+
+      &__textbox {
+        font-size: 1.4rem;
+      }
+
+      .yt iframe {
+        width: 100%;
+      }
     }
   }
 }

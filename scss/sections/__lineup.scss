@@ -48,3 +48,33 @@
     }
   }
 }
+
+@media screen and (max-width: 700px) {
+  .l-wrapper {
+    width: 90%;
+    margin: 15vh auto;
+    padding: 30px 20px;
+    gap: 16px;
+
+    &__item {
+      .name {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+      }
+
+      &--spec {
+        .title {
+          font-size: 1.4rem;
+        }
+
+        .spec{
+          font-size: 1.4rem;
+        }
+
+        .big{
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+}
