@@ -218,9 +218,6 @@ img {
     -webkit-justify-content: end;
         -ms-flex-pack: end;
             justify-content: end;
-    background-color: initial;
-    -webkit-backdrop-filter: initial;
-            backdrop-filter: initial;
     padding-right: 10px;
     height: 60px;
   }
